@@ -1,0 +1,8 @@
+.Copyrights {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace
+}

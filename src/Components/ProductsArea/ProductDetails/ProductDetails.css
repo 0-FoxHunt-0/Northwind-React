@@ -1,0 +1,18 @@
+.ProductDetails {
+	
+}
+
+.ProductDetails .back {
+    width: 100%;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.ProductDetails .back > * {
+    text-decoration: none;
+    color: black;
+    background-color: #FB8122;
+    padding: 3px;
+    border-radius: 10px;
+}

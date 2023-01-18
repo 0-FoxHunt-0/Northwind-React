@@ -1,0 +1,30 @@
+.PageNotFound > #background > #content > .player {
+	height: 200px;
+    width: 100px;
+    justify-content: end;
+}
+
+.PageNotFound {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.PageNotFound > #background {
+    background-image: url(../../../Assets/Images/404-error-template.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: auto;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    perspective: 2px;
+}
+
+.PageNotFound > #background > #content {
+    height: 100%;
+    width: 100%;
+}

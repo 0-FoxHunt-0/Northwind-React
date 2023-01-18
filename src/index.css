@@ -1,0 +1,43 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  text-align: center;
+  background-image: linear-gradient(to bottom right, #1D2228, #E1E2E2);
+  color: white;
+}
+
+a {
+  color: #1561F0;
+}
+
+.Box {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px;
+}
+
+form {
+  width: 350px;
+  text-align: left;
+}
+
+form > input, form > button {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  font-size: x-large;
+}
+
+form > label {
+  font-size: x-large;
+}
+
+.Err {
+  color: red;
+  font-size: x-large;
+  font-weight: bold;
+  margin-bottom: 50px;
+}

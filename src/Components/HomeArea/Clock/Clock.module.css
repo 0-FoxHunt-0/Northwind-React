@@ -1,0 +1,11 @@
+.FontColor {
+    color: magenta;
+    font-weight: bold;
+}
+
+.CoolBackground {
+    background-image: linear-gradient(black, white);
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
